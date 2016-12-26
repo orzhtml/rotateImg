@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-CN">
+    <meta charset="UTF-8">
+    <meta name="author" content="http://orzcss.com/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="icon" href="./orzcss.com.ico" type="image/x-icon">
+    <title>js-利用canvas让图片旋转角度</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>js-利用canvas让图片旋转角度<small>点击图片旋转角度</small></h1>
+        <ul class="rotate-img">
+            <li class="enter">
+                <div class="layer"></div>
+                <div class="bar">
+                    <img src="./img/1.jpg" alt="" class="img" />
+                </div>
+            </li>
+            <li class="enter">
+                <div class="layer"></div>
+                <div class="bar">
+                    <img src="./img/2.jpg" alt="" class="img" />
+                </div>
+            </li>
+            <li class="enter">
+                <div class="layer"></div>
+                <div class="bar">
+                    <img src="./img/3.jpg" alt="" class="img" />
+                </div>
+            </li>
+            <li class="enter">
+                <div class="layer"></div>
+                <div class="bar">
+                    <img src="./img/4.jpg" alt="" class="img" />
+                </div>
+            </li>
+            <li class="enter">
+                <div class="layer"></div>
+                <div class="bar">
+                    <img src="./img/5.jpg" alt="" class="img" />
+                </div>
+            </li>
+            <li class="enter">
+                <div class="layer"></div>
+                <div class="bar">
+                    <img src="./img/6.jpg" alt="" class="img" />
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <script src="./js/jquery-1.9.1.js" charset="utf-8"></script>
+    <script src="./js/rotateImg.js" charset="utf-8"></script>
+    <script>
+    		$(function () {
+    			$('.enter').rotateImg();
+    		});
+    </script>
+</body>
+</html>
