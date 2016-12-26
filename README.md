@@ -6,9 +6,11 @@
 在（控制台 | cmd）中输入命令全局安装 gulp
 
 // window
+
 `npm install -g gulp`
 
 // MacOS | Linux
+
 `sudo npm install -g gulp`
 
 安装完成后再输入检查是否安装成功
@@ -30,25 +32,47 @@
 四个角度变化：
 
 0:
+
 canvas.width = width;
+
 canvas.height = height;
+
 cxt.translate(0, 0);
+
 cxt.rotate(0 * Math.PI / 180);
 
+----
+
 90:
+
 canvas.width = height;
+
 canvas.height = width;
+
 cxt.translate(height, 0);
+
 cxt.rotate(90 * Math.PI / 180);
 
+----
+
 180:
+
 canvas.width = width;
+
 canvas.height = height;
+
 cxt.translate(width, height);
+
 cxt.rotate(180 * Math.PI / 180);
 
+----
+
 270:
+
 canvas.width = height;
+
 canvas.height = width;
+
 cxt.translate(0, width);
+
 cxt.rotate(270 * Math.PI / 180);
