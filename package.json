@@ -1,7 +1,7 @@
 {
   "name": "rotateImg",
   "version": "1.0.0",
-  "description": "js-利用canvas让图片旋转角度",
+  "description": "jquery-利用canvas让图片旋转角度",
   "main": "index.html",
   "repository": {
     "type": "git",
